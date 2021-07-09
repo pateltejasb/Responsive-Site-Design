@@ -1,0 +1,462 @@
+*{ 
+    margin: 0;
+    padding: 0;
+ }  
+
+
+header{
+    height: 70px;
+    background-color: #000000;
+    padding: 1em;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerTitle{
+    margin-top: 1%;
+    font-size: 1.9em;
+    text-align: center;
+    text-shadow: 2px 2px #818181;
+}
+
+#navDigital{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#logoDigital{
+    margin: 10px 34px;
+}
+
+#logoDigital img{
+    height: 60px;
+    width: 60px;
+    margin: 3px 6px;
+}
+
+#navDigital ul{
+    display: flex;
+    
+    
+}
+
+#navDigital ul li{
+    display: flex;
+    list-style: none;
+    font-size: 1.3em;
+}
+
+#navDigital ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 3px 20px;
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#navDigital ul li a:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#navDigital::before{
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    content: "";
+    background-color: #383838;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+#dataSection{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 190px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #dataSection::before{
+    height: 85%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    content: "";
+    background: url('../images/banner.jpg') no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+    
+} */
+
+#dataSection::before {
+    height: 450px;
+    width: 100%;
+    top: 192px;
+    left: 0px;
+    content: "";
+    background: url(../images/banner.jpg) no-repeat center center/cover;  /* Image source : https://velocitize.com/2020/09/02/4-marketing-technologies-every-marketer-should-know/ */
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#dataSection h1{
+    font-family: sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+
+}
+
+#dataSection p{
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 1.4em;
+
+}
+
+
+#mediaServiceSection{
+    height: 344px;
+}
+
+
+#services{
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.mediaHeading{
+    margin-top: 14%;
+    font-size: 2em;
+    text-align: center;
+    font-family: Verdana;
+
+}
+
+.allMediaBox{
+    padding: 34px;
+    margin: 100px;
+}
+
+#services .allMediaBox{
+    
+    margin: 10px 10px;
+    border: 2px solid rgb(100, 99, 99);
+}
+#services .allMediaBox img{
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+footer{
+    text-align: center;
+    font-size: 1.2em;
+    height: 50px;
+    background: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 9px 20px;
+}
+
+
+
+
+
+/*css for courses page***********************************************************/
+
+#coursesSection{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* #courseServiceSection{
+    height: 500%;
+} */
+
+.cousesHeading{
+    
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 2px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    font-family: Verdana;
+    margin-top: 4%;
+    
+    font-size: 2em;
+    text-align: center;
+}
+
+.cousesHeading span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.learnDetails{
+    font-family: Verdana;
+    font-size: 1.5em;
+}
+
+.tableCourseTitle{
+    font-family: Verdana;
+    margin-top: 25px;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+}
+
+/*  table css */ 
+
+table {
+    
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-collapse: collapse; 
+    border-spacing: 0;
+    border: 5px solid #000000;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+
+tr:nth-of-type(odd) {
+
+    color: rgb(25, 0, 170);
+    background: #eee;
+}
+
+th {
+
+    background: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+        
+td, th {
+    font-family: Arial, sans-serif;
+    padding: 0.5em;
+    border-style: none;
+    font-size: 1.3em;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+
+/******  Css for About Us page additional ***********************/
+
+
+#aboutUsSection{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 551px;
+}
+
+
+#aboutServices{
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.aboutHeading{
+    font-family: Verdana;
+    margin-top: 4%;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+.allAboutBox{
+    padding: 84px;
+    margin: 50px;
+}
+
+#aboutServices .allAboutBox{
+    
+    margin: 10px 10px;
+    padding: 34px;
+    
+}
+#aboutServices .allAboutBox img{
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+
+.aboutPragraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+.contentSpan{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/***** Media Qeries  *******************************************/
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)
+{
+
+    /* for home page and comman for header, navigation and footer*/
+
+    #navDigital{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 3%;
+    }
+
+    #navDigital ul li{
+        
+        
+        font-size: 1.7em;
+    }
+
+    #dataSection{
+        
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        padding: 3px 121px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #dataSection::before{
+        top: 253px;
+        height: 400px;
+    }
+
+    #dataSection h1{
+        font-size: 2.5em;
+        margin-top: 8%;
+    }
+
+    #dataSection p{
+        margin-top: 1%;
+        font-size: 20px;
+    }
+
+    .mediaHeading{
+        margin-top: 17%;
+    }
+    #services{
+        flex-direction: column;
+    }
+
+    #mediaServiceSection {
+        height: 693px;
+    }
+
+    footer{
+        text-align: center;
+        font-size: 1.2em;
+        height: 50px;
+        background: #000000;
+        color: #ffffff;
+        padding: 9px 20px;
+    }
+
+
+    /* courses page css additional******/ 
+
+    .cousesHeading{
+    
+
+        margin: 10px 0 20px; 
+        margin-top: 6%;
+        font-size: 1.8em;
+     
+    }
+    
+    .cousesHeading span { 
+        background:#fff; 
+        padding:0 10px; 
+    }
+    
+    .learnDetails{
+        font-size: 1.3em;
+    }
+
+    /*for table*/
+
+    table, thead, tbody, th, td, tr{ display: block; }
+        
+    thead tr {
+
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr { border: 1px solid #000000; }
+        
+    td {
+       
+        position: relative;
+        padding-left: 50%;
+        border: none;
+        border-bottom: 1px solid rgb(209, 209, 209);
+    }
+
+    td:before {
+        
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    td:nth-of-type(1):before { content: "No."; }
+    td:nth-of-type(2):before { content: "Couse Name"; }
+    td:nth-of-type(3):before { content: "Professor"; }
+    td:nth-of-type(4):before { content: "Occupation"; }
+    td:nth-of-type(5):before { content: "Experience"; }
+
+
+    /**  Css for about us page  */
+
+    #aboutServices{
+        flex-direction: column;
+    }
+
+    #aboutUsSection {
+        height: 780px;
+    }
+
+    .aboutHeading{
+        margin-top: 9%;
+    }
+
+    .aboutPragraph{
+        text-align: center;
+    }
+}
