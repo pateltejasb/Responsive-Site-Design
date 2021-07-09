@@ -1,0 +1,132 @@
+* { box-sizing: border-box; }
+
+body{
+    background-color: #ffffff;
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
+   
+}
+
+#wrapper{
+    background-image: linear-gradient(#ffffff, #fcddf2);
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#wrapper_two{
+    border-radius: 0.5em;
+    background-color: #fae5ee;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; 
+}
+
+#wrapper_three{
+    border-radius: 0.5em;
+    background-color: #fae5ee;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; 
+}
+
+
+header{
+
+    margin-top: 0%;
+    background-color: #BE043C ;
+    color: #FFFFFF;
+    height: 100px;
+    font-family: Verdana;
+}
+
+h1{
+    
+    text-align: center;
+    color: black;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#h3_description{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+}
+
+#h3_ingredients{
+    
+    font-size: 30px;
+    color: #000000;
+}
+
+#main_cake_image{
+    
+    display: block;
+    width: 800px;
+    float: left;
+    height: 400px;
+}
+
+#ingreadients_image{
+    width: 400px;
+    height: 350px;
+}
+
+iframe{
+    width: 400px;
+    height: 350px;
+}
+
+main{
+    padding-left: 30px;
+    padding-right:  30px;
+    padding-top: 50px;
+    display: block;
+    overflow: auto;
+    height: 400px;
+    background-color: #fae5ee;
+
+}
+
+#cake_desciption{
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right:  30px;
+    text-align: center;
+    color: #000000;
+}
+
+
+#cake_title{
+    color: #000000;
+    text-align: center;
+}
+
+section{
+    background-color: #fae5ee;
+    float: left;
+    width: 50%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 30px;
+}
+
+li{
+    
+    color: #000000;
+}
+
+span{
+    font-weight: bold;
+}
+
+
+
